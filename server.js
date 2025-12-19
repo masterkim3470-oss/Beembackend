@@ -18,7 +18,7 @@ const APP_ID = "3824";
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-    origin: "https://otptest.onrender.com", // Frontend origin
+    origin: "https://otptest-fop3.onrender.com", // Frontend origin
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"]
 }));
